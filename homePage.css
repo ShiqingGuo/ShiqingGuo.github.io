@@ -51,7 +51,7 @@ h4{
 }
 
 #leftSideContainer{
-    width: 30%;
+    width: 32%;
     background: #407294;
     flex-direction: column;
     color: #cbcba9;
@@ -59,7 +59,6 @@ h4{
 }
 
 #rightSideContainer{
-    width: 70%;
     flex-direction: column;
     color: #407294;
     padding: 0 2vw;
