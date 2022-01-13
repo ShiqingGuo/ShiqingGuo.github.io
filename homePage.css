@@ -68,6 +68,15 @@ h4{
     padding: 1vw 2vw;
 }
 
+#technicalSkills p{
+    padding: 0.5vw 2vw;
+}
+
+#technicalSkills progress{
+    margin: 0vw 2vw;
+    width: auto;
+}
+
 .section{
     flex-direction: column;
     padding-top: 3%;
@@ -75,14 +84,10 @@ h4{
 
 
 #contact{
-    height: 40%;
     width: 100%;
 
 }
 
-#highlights{
-    height: 30%;
-}
 
 #hobbies{
     height: 30%;
