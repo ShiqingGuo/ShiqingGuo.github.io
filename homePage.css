@@ -26,15 +26,15 @@ h1,h2,h3{
 }
 
 h1{
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 h2{
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 h3{
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 h4{
@@ -54,7 +54,7 @@ h4{
     background: #407294;
     flex-direction: column;
     color: #cbcba9;
-    padding-top: 5%;
+    padding-top: 5vh;
 }
 
 #rightSideContainer{
@@ -63,13 +63,20 @@ h4{
     padding: 2vw 2vw;
 }
 
+#rightSideContainer .section{
+    padding-top: 0.5vh;
+}
+#leftSideContainer .section{
+    padding-top: 2vh;
+}
+
 #leftSideContainer p{
     font-size: 2vw;
-    padding: 1vw 2vw;
+    padding: 0.5vw 2vw;
 }
 
 #technicalSkills p{
-    padding: 0.5vw 2vw;
+    padding: 0vw 2vw;
 }
 
 #technicalSkills progress{
@@ -79,7 +86,6 @@ h4{
 
 .section{
     flex-direction: column;
-    padding-top: 3%;
 }
 
 
@@ -94,8 +100,8 @@ h4{
 }
 
 #contact img{
-    width: 3vw;
-    height: 3vw;
+    width: 2vw;
+    height: 2vw;
 }
 
 #contact a{
@@ -128,15 +134,14 @@ h4{
 }
 
 
-
 #rightSideContainer p{
-    font-size: 3vw;
+    font-size: 2vw;
     color: black;
 
 }
 
 #rightSideContainer ul{
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: black;
     list-style-position: inside;
 }
@@ -184,9 +189,9 @@ input{
 
 #myPhotos img{
     border-radius: 50%;
-    width: 20vh;
-    height: 20vh;
-    object-fit: cover;
+    object-fit: contain;
+    width: auto;
+    height: auto;
     animation-name: myPhotosImg;
     animation-duration: 2s;
 }
