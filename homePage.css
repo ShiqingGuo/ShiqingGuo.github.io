@@ -46,14 +46,14 @@ h4{
 #container{
     flex-flow: row;
     width: 100%;
-    background: #cbcba9;
+    background: white;
 }
 
 #leftSideContainer{
     width: 32%;
     background: #407294;
     flex-direction: column;
-    color: #cbcba9;
+    color: white;
     padding-top: 5vh;
 }
 
